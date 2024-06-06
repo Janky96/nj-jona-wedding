@@ -141,6 +141,13 @@ span {
   justify-content: center;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .grid-2-items {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -176,6 +183,59 @@ span {
   width: 200px;
 }
 
+.attire-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.attire-image {
+  height: 10rem;
+}
+
+.dress {
+  filter: brightness(0) saturate(100%) invert(38%) sepia(14%) saturate(1705%)
+    hue-rotate(175deg) brightness(91%) contrast(91%);
+}
+
+.suit {
+  /* filter: brightness(0) saturate(100%) invert(83%) sepia(5%) saturate(3268%)
+    hue-rotate(183deg) brightness(93%) contrast(94%); */
+
+  filter: brightness(0) saturate(100%) invert(38%) sepia(14%) saturate(1705%)
+    hue-rotate(175deg) brightness(91%) contrast(91%);
+}
+
+.colors-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.circle {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  background-color: var(--primary-dark);
+}
+
+.circle-2 {
+  background-color: var(--primary);
+}
+.circle-3 {
+  background-color: var(--primary-light);
+}
+.circle-4 {
+  background-color: var(--grey);
+}
+
 .ph-big {
   font-size: 18rem;
 }
@@ -196,6 +256,29 @@ span {
   display: none;
 }
 
+.whatsapp-button {
+  background-color: #25d366;
+  color: var(--white);
+  font-size: 3.2rem;
+  border: none;
+
+  padding: 1.2rem 2.4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+
+  width: 18rem;
+
+  gap: 1rem;
+}
+
+.whatsapp-button-container {
+  gap: 2rem;
+}
+
+.whatsapp-button:hover {
+  transform: scale(98%);
+}
+
 /* MEDIA QUERY */
 @media (max-width: 768px) {
   html {
@@ -204,6 +287,8 @@ span {
 
   .navigation-icon {
     display: block;
+
+    cursor: pointer;
   }
 
   .remove {
@@ -213,6 +298,7 @@ span {
   .navbar-ul {
     position: fixed;
     flex-direction: column;
+    gap: 2rem;
     top: 5rem;
     right: -100%;
     background-color: var(--white);

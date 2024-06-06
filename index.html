@@ -33,32 +33,51 @@
     </div>
     <div class="story-description">
       <h2 class="header-section">Wedding</h2>
-      <p class="story">Neil John and Jona Elaine are getting married!</p>
+      <span id="countdown-timer"></span>
     </div>
   </section>
 
-  <section class="section" id="palette">
-    <h1>Palette</h1>
+  <section class="section grid-2-items" id="palette">
+    <div class="flex-column">
+      <h2>Attire</h2>
+      <span style="margin-top: 1rem;">Formal/Semi-formal</span>
+      <div style="margin-top: 3rem;">
+        <img src="images/dress.png" class="attire-image dress" />
+        <img src="images/suit.png" class="attire-image suit" />
+      </div>
+    </div>
+
+    <div class="flex-column">
+      <h2>Palette</h2>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio aliquam amet</span>
+      <div class="colors-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+      </div>
+    </div>
 
   </section>
 
   <section class="section grid-2-items-inverted" id="when">
 
-    <div>
+    <div class="flex-column">
       <h2>When</h2>
-      <span>May 17, 2025</span>
+      <span>May 24, 2025</span>
       <br>
       <span>5:00 PM</span>
     </div>
 
-    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250517%2F20250518&details=Pena%27s%20wedding&location=Via%20Nicola%20Serra%2085&text=Pena%27s%20wedding"
-      title="Save Event in my Calendar" target="_blank"><i class="ph ph-calendar ph-big"></i></a>
+    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250524%2F20250525&details=Pena%27s%20wedding&location=Via%20Nicola%20Serra%2085&text=Pena%27s%20wedding"
+      title="Save Event in my Calendar" target="_blank"><i class="ph ph-calendar ph-big"></i>
+    </a>
 
   </section>
 
   <section class="section grid-2-items" id="where">
     <a href="https://maps.app.goo.gl/maDeWq6AGDqvLMSSA" target="_blank"><i class="ph ph-map-pin ph-big"></i></a>
-    <div>
+    <div class="flex-column">
       <h2>Where</h2>
       <span>San Giovanni in fiore</span>
       <span>Via Bho, 18, 87100</span>
@@ -74,8 +93,24 @@
     </div>
   </section>
 
-  <section class="section " id="contacts">
-    <h1>Contacts</h1>
+  <section class="section grid-2-items" id="contacts">
+    <div class="flex-column">
+      <h1>Contacts</h1>
+      <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur et quasi, </span>
+    </div>
+
+
+    <div class="flex-column whatsapp-button-container">
+      <a href="https://wa.me/+393246067944/?text=Bla&nbsp;Bla&nbsp;Bla" target="_blank">
+        <button class="flex-row whatsapp-button">Jona<i class="ph ph-whatsapp-logo"></i>
+        </button>
+      </a>
+
+      <a href="https://wa.me/+393246067969/?text=Bla&nbsp;Bla&nbsp;Bla" target="_blank">
+        <button class="flex-row whatsapp-button">NJ<i class="ph ph-whatsapp-logo"></i>
+        </button>
+      </a>
+    </div>
   </section>
 
   <script src="script.js"></script>
