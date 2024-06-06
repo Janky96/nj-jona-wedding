@@ -335,4 +335,9 @@ span {
   .ph-big {
     font-size: 10rem;
   }
+
+  .whatsapp-button {
+    font-size: 2.6rem;
+    width: 15rem;
+  }
 }
