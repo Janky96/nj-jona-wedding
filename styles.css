@@ -126,13 +126,13 @@ span {
   padding: 1.2rem;
   min-height: 400px;
 
-  background-color: var(--primary);
+  background-color: var(--primary-dark);
   color: var(--white);
 }
 
 .section:nth-child(odd) {
   background-color: var(--white);
-  color: var(--primary);
+  color: var(--primary-dark);
 }
 
 .flex-row {
