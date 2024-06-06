@@ -13,6 +13,8 @@ Palette Jona wedding: #132D48, #3F6393, #708CB4, #9FC1E7, #C2DAF6, #E0E3E8
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  scroll-behavior: smooth;
 }
 
 *,
