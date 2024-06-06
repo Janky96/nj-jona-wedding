@@ -211,7 +211,7 @@ span {
 .colors-container {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 
   column-gap: 2rem;
   row-gap: 2rem;
@@ -224,17 +224,23 @@ span {
 }
 
 .circle-1 {
-  background-color: var(--primary-dark);
+  background-color: #132d48;
 }
 
 .circle-2 {
-  background-color: var(--primary);
+  background-color: #3f6393;
 }
 .circle-3 {
-  background-color: var(--primary-light);
+  background-color: #708cb4;
 }
 .circle-4 {
-  background-color: var(--grey);
+  background-color: #9fc1e7;
+}
+.circle-5 {
+  background-color: #c2daf6;
+}
+.circle-6 {
+  background-color: #e0e3e8;
 }
 
 .ph-big {
@@ -335,6 +341,10 @@ span {
 
   .attire-image {
     height: 9rem;
+  }
+
+  .colors-container {
+    grid-template-columns: 1fr 1fr;
   }
 
   .ph-big {
