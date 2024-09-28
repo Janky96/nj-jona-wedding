@@ -39,7 +39,7 @@ navbarListItem.forEach((item) =>
 // Closing navbar when scrolling
 window.addEventListener("scroll", function () {
   let current = window.scrollY;
-  if (prev < current) {
+  if (prev !== current) {
     removeChecked();
   }
 
