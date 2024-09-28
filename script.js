@@ -73,3 +73,14 @@ var x = setInterval(function () {
     document.getElementById("countdown-timer").innerHTML = "GOT MARRIED";
   }
 }, 1000);
+
+var prevScrollpos = window.scrollY;
+window.onscroll = function () {
+  var currentScrollPos = window.scrollY;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("hamburger-icon").style.top = "1rem";
+  } else {
+    document.getElementById("hamburger-icon").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+};

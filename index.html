@@ -10,16 +10,17 @@
     href="https://fonts.googleapis.com/css2?family=Bellefair&family=Inter:wght@400;500;700&family=Parisienne&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <title>Wedding</title>
+  <link rel="icon" href="images/barong-filipiniana.png" type="image/icon type">
+  <title>NJ & JE</title>
 </head>
 
 <body>
   <nav class="navbar-menu">
-    <i class="ph ph-list hamburger-icon navigation-icon"></i>
+    <i class="ph ph-list hamburger-icon navigation-icon" id="hamburger-icon"></i>
     <i class="ph ph-x x-icon remove navigation-icon"></i>
     <ul class="navbar-ul">
       <li class="navbar-li"><a href="#wedding">Wedding</a></li>
-      <li class="navbar-li"><a href="#palette">Palette</a></li>
+      <li class="navbar-li"><a href="#attire">Attire</a></li>
       <li class="navbar-li"><a href="#when">When</a></li>
       <li class="navbar-li"><a href="#where">Where</a></li>
       <li class="navbar-li"><a href="#maps">Maps</a></li>
@@ -28,8 +29,10 @@
   </nav>
 
   <section class="section grid-2-items">
-    <div class="image-container">
-      <img src="images/dog.png" alt="">
+    <div class="names-container">
+      <p class="names">Neil John</p>
+      <p class="names">&</p>
+      <p class="names">Jona Elaine</p>
     </div>
     <div class="story-description">
       <h2 class="header-section">Wedding</h2>
@@ -37,20 +40,18 @@
     </div>
   </section>
 
-  <section class="section grid-2-items" id="palette">
+  <section class="section grid-2-items" id="attire">
     <div class="flex-column">
       <h2>Attire</h2>
       <span style="margin-top: 1rem;">Formal</span>
-      <div style="margin-top: 3rem;">
-        <img src="images/barong-filipiniana.png" class="" />
-        <!-- <img src="images/dress.png" class="attire-image dress" /> -->
-        <!-- <img src="images/suit.png" class="attire-image suit" /> -->
+      <div style="margin-top: 3rem;" class="flex-row">
+        <img src="images/barong-filipiniana.png" class="barong-filipiniana" width="50%" />
       </div>
     </div>
 
     <div class="flex-column">
       <h2>Palette</h2>
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio aliquam amet</span>
+      <span>We kindly request our guests to wear these colors for our special day</span>
       <div class="colors-container">
         <div class="circle circle-1"></div>
         <div class="circle circle-2"></div>
@@ -82,16 +83,17 @@
     <a href="https://maps.app.goo.gl/maDeWq6AGDqvLMSSA" target="_blank"><i class="ph ph-map-pin ph-big"></i></a>
     <div class="flex-column">
       <h2>Where</h2>
+      <span>San Bernardo Ricevimenti</span>
       <span>San Giovanni in fiore</span>
-      <span>Via Bho, 18, 87100</span>
+      <span>Località San Bernardo, 87055</span>
     </div>
   </section>
 
   <section class="section" id="maps">
     <div class="map-container">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.152105817143!2d16.248690075426108!3d39.307475522404644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133f974ca689437b%3A0x201629c4cf8a21a3!2sVia%20Nicola%20Serra%2C%2085%2C%2087100%20Cosenza%20CS!5e0!3m2!1sen!2sit!4v1717600349740!5m2!1sen!2sit"
-        width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.21750200988!2d16.601899575426067!3d39.30599302249294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13407a99ecdde231%3A0x46b97b682c96a652!2sSan%20Bernardo%20Ricevimenti!5e0!3m2!1sit!2suk!4v1727517432418!5m2!1sit!2suk"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
@@ -99,17 +101,19 @@
   <section class="section grid-2-items" id="contacts">
     <div class="flex-column">
       <h1>Contacts</h1>
-      <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur et quasi, </span>
+      <span>The favor of a reply is requested by Feb 28, 2025</span>
     </div>
 
 
     <div class="flex-column whatsapp-button-container">
-      <a href="https://wa.me/+393246067944/?text=Bla&nbsp;Bla&nbsp;Bla" target="_blank">
+      <a href="https://wa.me/+393246067944/?text=I&nbsp;am&nbsp;glad&nbsp;to&nbsp;confirm&nbsp;my&nbsp;participation&nbsp;at&nbsp;your&nbsp;wedding"
+        target="_blank">
         <button class="flex-row whatsapp-button">Jona<i class="ph ph-whatsapp-logo"></i>
         </button>
       </a>
 
-      <a href="https://wa.me/+393246067969/?text=Bla&nbsp;Bla&nbsp;Bla" target="_blank">
+      <a href="https://wa.me/+393246067969/?text=I&nbsp;am&nbsp;glad&nbsp;to&nbsp;confirm&nbsp;my&nbsp;participation&nbsp;at&nbsp;your&nbsp;wedding"
+        target="_blank">
         <button class="flex-row whatsapp-button">NJ<i class="ph ph-whatsapp-logo"></i>
         </button>
       </a>
