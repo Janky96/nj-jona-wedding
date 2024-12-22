@@ -251,6 +251,24 @@ span {
 .circle-6 {
   background-color: #9fc1e7;
 }
+.circle-7 {
+  background-color: #b6a089;
+}
+.circle-8 {
+  background-color: #cab298;
+}
+.circle-9 {
+  background-color: #d4c2ac;
+}
+.circle-10 {
+  background-color: #ded1c0;
+}
+.circle-11 {
+  background-color: #eae0d6;
+}
+.circle-12 {
+  background-color: #f3f0eb;
+}
 
 .ph-big {
   font-size: 18rem;
@@ -272,9 +290,7 @@ span {
   display: none;
 }
 
-.whatsapp-button {
-  background-color: #25d366;
-  color: var(--white);
+.rounded-button {
   font-size: 3.2rem;
   border: none;
 
@@ -285,6 +301,20 @@ span {
   width: 18rem;
 
   gap: 1rem;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+  color: var(--white);
+}
+
+.reference-button,
+.reference-button:visited {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.6rem;
+  background-color: #34609f;
+  color: var(--white);
 }
 
 .whatsapp-button-container {
