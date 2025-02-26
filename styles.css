@@ -128,13 +128,19 @@ span {
   padding: 1.2rem;
   min-height: 400px;
 
-  background-color: var(--primary);
+  background-color: #b6a089;
+
+  /* background-color: var(--primary); */
   color: var(--white);
 }
 
 .section:nth-child(odd) {
-  background-color: var(--white);
-  color: var(--primary);
+  background-color: #fcf5e5;
+
+  /* background-color: var(--white); */
+  /* color: var(--primary); */
+
+  color: #b6a089;
 }
 
 .flex-row {
@@ -167,11 +173,21 @@ span {
   align-items: center;
 }
 
+#wedding {
+  background-image: url("/images/background-philippines-1-sepia.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: var(--white);
+}
+
+.names-container {
+  filter: none;
+}
+
 .story-description {
   display: flex;
   flex-direction: column;
-
-  /* font-family: "Parisienne"; */
 }
 
 .header-section {
@@ -304,7 +320,8 @@ span {
 }
 
 .whatsapp-button {
-  background-color: #25d366;
+  /* background-color: #25d366; */
+  background-color: #34609f;
   color: var(--white);
 }
 
@@ -323,6 +340,13 @@ span {
 
 .whatsapp-button:hover {
   transform: scale(98%);
+}
+
+/* MEDIA QUERY */
+@media (min-width: 768px) {
+  .circle-10 {
+    display: none;
+  }
 }
 
 /* MEDIA QUERY */
