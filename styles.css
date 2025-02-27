@@ -201,6 +201,38 @@ span {
   height: 200px;
 }
 
+#where {
+  position: relative;
+}
+
+#contacts {
+  position: relative;
+}
+
+.design-bamboo-1 {
+  background-image: url("/images/bamboo-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 10px;
+  right: -10px;
+}
+
+.design-leaves-1 {
+  background-image: url("/images/leaves-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
 .names-container {
   filter: none;
 }
@@ -355,6 +387,7 @@ span {
 }
 
 .whatsapp-button-container {
+  z-index: 1;
   gap: 2rem;
 }
 
