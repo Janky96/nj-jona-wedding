@@ -181,6 +181,22 @@ span {
   color: var(--white);
 }
 
+.design-pattern-1 {
+  background-image: url("/images/pattern-1-flowers.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 200px;
+}
+
+.design-pattern-2 {
+  background-image: url("/images/pattern-2-flowers.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 200px;
+}
+
 .names-container {
   filter: none;
 }
