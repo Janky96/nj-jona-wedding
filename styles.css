@@ -157,6 +157,10 @@ span {
   justify-content: center;
 }
 
+.gap-1 {
+  gap: 1rem;
+}
+
 .grid-2-items {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -185,8 +189,8 @@ span {
   background-image: url("/images/pattern-1-flowers.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 350px;
-  height: 200px;
+  width: 300px;
+  height: 180px;
 }
 
 .design-pattern-2 {
@@ -446,5 +450,15 @@ span {
   .whatsapp-button {
     font-size: 1.8rem;
     width: 15rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .design-pattern-1 {
+    width: 250px;
+  }
+
+  .design-pattern-2 {
+    width: 300px;
   }
 }
